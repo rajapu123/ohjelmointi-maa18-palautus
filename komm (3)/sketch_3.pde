@@ -1,0 +1,10 @@
+size(200,200);
+colorMode(HSB,100);
+noStroke();
+background(96,83,67);
+noStroke();
+fill(56,100,73);
+quad(20,40,100,40,100,140,20,140);
+stroke(100);
+fill(45,51,51);
+triangle(120,40,180,120,80,160);

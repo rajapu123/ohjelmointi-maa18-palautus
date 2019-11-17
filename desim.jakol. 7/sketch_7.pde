@@ -1,0 +1,14 @@
+size(400,400);
+final float P = 20;
+colorMode(HSB,100); 
+noStroke();
+fill(100);
+triangle(0,0,width,0,width/2.0,height);
+fill(62,100,100);
+final float K = 1-P/100;
+final float X = K*width*2.0;
+final float Y = K*height;
+triangle(X, Y, width/2.0, height, width-X, Y);
+fill(0);
+triangle(0,0,width/2,height,0,height);
+triangle(width,0,width,height,width/2,height);
